@@ -3,3 +3,7 @@
     content: "\f164"; 
     font-size: 21px !important;
 }
+#chat .pusher-chat-widget-input #chat-txt-message {
+    padding-right: 93px !important;
+    padding-right: 5.813em !important;
+}
