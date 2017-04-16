@@ -12,7 +12,7 @@
     'use strict';
     
  setTimeout(function() {
-$('head').append('<link rel="stylesheet" type="text/css" href="https://raw.githubusercontent.com/AngeloidIkaros/Dubtrack-Stuff/master/Dubtrack%20Stream%20Countdown/props_button.css" />');
+$('head').append('<link rel="stylesheet" type="text/css" href="https://raw.githubusercontent.com/AngeloidIkaros/Dubtrack-Stuff/master/Dubtrack_Props_Button/props_button.css" />');
 
 var propsButton = document.createElement('span');
 propsButton.className = 'props-button fi-like';
