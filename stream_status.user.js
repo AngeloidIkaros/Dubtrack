@@ -9,20 +9,18 @@
 // ==/UserScript==
 
 (function(){
-
-
-
-var outputEl = document.createElement('span');
+    
+    setTimeout(function() {
+        var outputEl = document.createElement('span');
 outputEl.className = 'stream-countdown';
 outputEl.id = 'output';
 outputEl.onclick = function() {
       window.open('https://www.twitch.tv/nightblue3');
-}
-
+};
 document.getElementsByClassName("player_header")[0].appendChild(outputEl);
-    var daylight = 1;
-    
-    var response, response1, streamTitle, time = 7, live = 0, day, sMinutes = 0;
+}, 5000);
+   var daylight = 1;
+   var response, response1, streamTitle, time = 7, live = 0, day, sMinutes = 0;
 					function bst() {
 						var dates = [new Date(), new Date()], personDate = Date.now(), octDate, marDate;
 						for (var i = 0; i < dates.length; i++) {
@@ -172,6 +170,8 @@ document.getElementsByClassName("player_header")[0].appendChild(outputEl);
 						};
 						xhttp1.open("GET", "https://api.twitch.tv/kraken/channels/" + tChannel + "?client_id=8xoctkw36e66qyr3xluqvgvvn5e68ft", true);
 						xhttp1.send();
-					}
-				
+					};
+
+  
+		
 })();
