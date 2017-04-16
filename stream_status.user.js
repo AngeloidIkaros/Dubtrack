@@ -11,7 +11,7 @@
 (function(){
     
     setTimeout(function() {
-        var outputEl = document.createElement('span');
+var outputEl = document.createElement('span');
 outputEl.className = 'stream-countdown';
 outputEl.id = 'output';
 outputEl.onclick = function() {
@@ -19,7 +19,7 @@ outputEl.onclick = function() {
 };
 document.getElementsByClassName("player_header")[0].appendChild(outputEl);
 }, 5000);
-   var daylight = 1;
+   var daylight = 1; // 1= For Daylight Saving 0= For no Daylight Saving
    var response, response1, streamTitle, time = 7, live = 0, day, sMinutes = 0;
 					function bst() {
 						var dates = [new Date(), new Date()], personDate = Date.now(), octDate, marDate;
