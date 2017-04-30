@@ -2,10 +2,10 @@
 @font-face {
     font-family: 'IkaFont';
     src: url('https://rawgit.com/AngeloidIkaros/Dubtrack/master/Dubtrack_CSS/fonts/IkaFont.eot');
-    src: url('https://rawgit.com/AngeloidIkaros/Dubtrack/master/Dubtrack_CSS/fonts/IkaFont.eot?#iefix') format('embedded-opentype'),
+    src: url('https://rawgit.com/AngeloidIkaros/Dubtrack/master/Dubtrack_CSS/fonts/IkaFont.eot') format('embedded-opentype'),
          url('https://rawgit.com/AngeloidIkaros/Dubtrack/master/Dubtrack_CSS/fonts/IkaFont.woff') format('woff'),
          url('https://rawgit.com/AngeloidIkaros/Dubtrack/master/Dubtrack_CSS/fonts/IkaFont.ttf') format('truetype'),
-         url('https://rawgit.com/AngeloidIkaros/Dubtrack/master/Dubtrack_CSS/fonts/IkaFont.svg#IkaFont') format('svg');
+         url('https://rawgit.com/AngeloidIkaros/Dubtrack/master/Dubtrack_CSS/fonts/IkaFont.svg') format('svg');
     font-weight: normal;
     font-style: normal;
 }
